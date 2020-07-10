@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hemanth P" />
+    <title>Hemanth P | FrontEnd Developer</title>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+    <!--Animate.css library link-->
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Animate library-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!--Bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/png" href="./img/Group 1.png" />
+    <!--Personal stylesheets-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- endbuild -->
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <a class="navbar-brand"><img
+                src="./img/Group 1.png"
+                alt="Website logo"
+                class="logo"
+                width="50"
+                height="50"
+                style="margin-left: 21px;"
+              /></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="noListDisplay ml-auto navbar-nav">
+                    <li class="listItem">
+                      <a href="#about" class="link-a active-li">About</a>
+                    </li>
+                    <li class="listItem">
+                      <a href="#work" class="link-a">Projects</a>
+                    </li>
+                    <li class="listItem">
+                      <a href="#contact" class="link-a">Contact</a>
+                    </li>
+                    <li class="listItem">
+                      <a
+                        href="./img/Resume(Hemanth).pdf"
+                        class="resume link"
+                        >Resume</a
+                      >
+                    </li>
+                  </ul>  
+            </div>
+    </nav>
+
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
+    
+    
+    <!--Bootstrap container for remaining conten-->
+    <div class="container" style="margin-top: 90px;">
+      <!--Hero Section-->
+      <section id="hero" class=" animate__animated animate__fadeInUp mt-4">
+        <h1 class="hero-heading">Hi there, my name is</h1>
+        <h2 class="hero-subheading mt-3">Hemanth P</h2>
+        <p class="hero-description mt-3">
+          I am a frontend developer based in Bangalore, India. I have an
+          aspiration to be a full-stack developer.
+        </p>
+        <p class="heroCodeSub mt-3" style="font-size:x-large;">We do a lot of things and our experiences shapes us better in some of those.</p>
+        <button class="btn hero-btn mt-5">
+          <a href="#contact">get in touch</a>
+        </button>
+      </section>
+
+      <!--About Section-->
+      <h1 class="opaqueBackground">About Me</h1>
+      <section id="about" class="animate__animated animate__fadeInUp mt-5">
+        <h1 class="main-heading">About me</h1>
+        <div class="aboutContent mt-5">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <h4 class="aboutText">Dream is to become a Polymath.</h4>
+              <p class="aboutText">
+                I don't think any human was born to do just one thing. I have a knack for
+                creating user friendly, aesthetically pleasing and functional
+                web products, ranging from websites to web apps. <br /><br />
+                I am a computer science student in my finals. Here are some of the technologies I
+                have been working with lately:
+                <ul class="techs mt-4">
+                  <div class="row">
+                    <div class="col-6">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SCSS</li>
+                      <li>Javascript(ES6+)</li>
+                    </div>
+                    <div class="col-6">
+                      <li>JQuery</li>
+                      <li>React</li>
+                      <li>Nodejs</li>
+                      <li>VCS (Git & Github)</li>
+                    </div>
+                  </div>
+                </ul>
+              </p>
+            </br>
+               <!-- About Tabs Begin -->
+               <div class="about-nav-tab">
+                <!-- Nav Tabs Begin -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-items">
+                        <a class="nav-link active" data-toggle="tab" href="#mission" role="tab" aria-selected="true">My Mission</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" data-toggle="tab" href="#vission" role="tab" aria-selected="false">My Vision</a>
+                    </li>
+                </ul>
+                <!-- Nav Tabs End -->
+                <!-- Tab Contents Begin -->
+                <div class="tab-content">
+                    <!-- Mission Tab Begin -->
+                    <div class="tab-pane fade show active" id="mission" role="tabpanel">
+                        <ul class="list-unstyled list-check">
+                            <li><i class="fa fa-check" aria-hidden="true"></i> To be better at those things which I love to do.</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i> Find a problem that the world is facing and Solve it.</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i> Share my experiences and learnings with others.</li>
+                        </ul>
+                    </div>
+                    <!-- Mission Tab End -->
+    
+                    <!-- Vision Tab Begin -->
+                    <div class="tab-pane fade" id="vission" role="tabpanel">
+                        <ul class="list-unstyled list-check">
+                            <li><i class="fa fa-check" aria-hidden="true"></i> To live a balanced life with happiness, peace and enough challenges.</li>
+                            <!-- <li><i class="fa fa-check" aria-hidden="true"></i> Customer dossier</li> -->
+                        </ul>
+                    </div>
+                    <!-- Vission Tab End -->
+                </div>
+                <!-- Tab Contents End -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="./img/2.jpeg" alt="Hemanth's Picture" class="img-fluid rounded"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!--Projects Section-->
+      <h1 class="opaqueBackground">Projects</h1>
+      <section id="work" class="animate__animated animate__fadeInUp mt-5">
+        <h1 class="main-heading">Things I've Built</h1>
+        <!--Featured Project 1-->
+                <div class="row featuredProj mt-5">
+                  <div class="col-lg-7 col-md-6">
+                    <img src="./img/RestCapture.PNG" class
+                    ="img-fluid" alt="Featuredproject 1">
+                  </div>
+                  <div class="col-lg-5 col-md-6 proj">
+                    <h5 class="projTitle">featured project</h5>
+                    <h1 class="projName">Ristorante con Fusion</h1>
+                    <p class="projDetails">
+                      A project created while learning coursera. It was a good test for checking my knowledge in layouts, modals, carousels and mobile design responsiveness.
+                    </p>
+                    <ul class="technologies">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Bootstrap 4</li>
+                        <li>Sass</li>
+                        <li>JQuery</li>
+                        <li>Git</li>
+                    </ul>
+                    <ul class="fontLinks">
+                      <span><a href="https://github.com/hemanth98/conFusion" target="_blank">
+                        <i class="fa fa-github"></i>
+                      </a></span>
+                    </ul> 
+                  </div>
+                </div>
+               <!--Featured Project 2-->
+               <div class="row featuredProj mt-5">
+                <div class="col-lg-5 col-md-6 leftProj">
+                 <h5 class="projTitle">featured project</h5>
+                 <h1 class="projName">Lorvent</h1>
+                 <p class="projDetails left">
+                  A random website template which includes most of the HTML, CSS and Bootstrap 4 features. Anyone can use this and make few changes to the content and create a website of thier own. Created in the intension to help begginers learn Web Development. 
+                 </p>
+                 <ul class="technologies">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Bootstrap 4</li>
+                    <li>Sass</li>
+                    <li>JQuery</li>
+                    <li>Git</li>
+                 </ul>
+                 <ul class="fontLinks">
+                  <span><a href="https://github.com/hemanth98/lorvent" target="_blank">
+                    <i class="fa fa-github"></i>
+                  </a></span>
+                 </ul> 
+                </div>
+                <div class="col-lg-7 col-md-6">
+                  <img src="./img/LorCapture.PNG" class
+                  ="img-fluid" alt="Featuredproject 1">
+                </div>
+              </div>
+              <!--Featured Project 3-->
+              <div class="row featuredProj mt-5">
+                <div class="col-lg-7 col-md-6">
+                  <img src="./img/Bookstore design(Home).jpg" class
+                  ="img-fluid" alt="Featuredproject 1">
+                </div>
+                <div class="col-lg-5 col-md-6 mb-5 proj">
+                  <h5 class="projTitle">featured project</h5>
+                  <h1 class="projName">Dedicated Bookstore</h1>
+                  <p class="projDetails">
+                    A prototype for a Bookstore Website. This project helped me a learn a lot about Web Designing, which is very important for a good web developer.
+                  </p>
+                  <ul class="technologies">
+                    <li>Adobe XD</li>
+                  </ul>
+                  <ul class="fontLinks">
+                    <span><a href="./img/Prototype.pdf" target="_blank">
+                      <i class="fa fa-file"></i>
+                    </a></span>
+                  </ul> 
+                </div>
+              </div>
+        </section>
+
+
+<!--Other noteworthy projects section-->
+  <section id="others" class="mt-5">
+      <div class="otherProjHeader d-flex flex-column justify-content-center align-items-center text-capitalize text-center">
+        <h1>other noteworthy projects</h1>
+        <a href="https://github.com/hemanth98">View the archive</a>
+      </div>
+      <!--Other Projects-->
+    <div class="others d-flex justify-content-between align-items-center mt-5">
+      <!--Row 1 project 1-->
+      <div class="otherProject">
+        <div class="icons">
+          <i class="fa fa-folder-open folder">
+        </i>
+        <div class="rightIcons">
+          <a href="https://github.com/hemanth98/Booklover-s-Paradise" target="_blank">
+            <i class="fa fa-github right"></i>
+          </a>
+        </div>
+      </div>
+        <h1 class="title mt-3">Booklover's Paradise</h1>
+        <p class="subtitle mt-3">A very simple bookstore application that helps you buy or exchange second hand books.</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Bootstrap 4</li>
+            <li>Sass</li>
+            <li>JQuery</li>
+            <li>Git</li>
+        </ul>
+      </div> 
+
+      <!--Row 1 project 2--> 
+      <div class="otherProject">
+        <div class="icons">
+          <i class="fa fa-folder-open folder">
+        </i>
+        <div class="rightIcons">
+          <a href="https://github.com/hemanth98/TrashWarrior" target="_blank">
+            <i class="fa fa-github right"></i>
+          </a>
+        </div>
+      </div>
+        <h1 class="title mt-3">Trash Warrior</h1>
+        <p class="subtitle mt-3">The project Trash Warrior is developed so
+            that users can view the information about nearby dump locations and the expected reward
+            points for each trash they dump. </p>
+        <ul>
+          <li>Android</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+        <!--Row 1 project 3 --> 
+        <div class="otherProject">
+          <div class="icons">
+            <i class="fa fa-folder-open folder">
+          </i>
+          <div class="rightIcons">
+            <a href="https://github.com/hemanth98/Slam-Fitness" target="_blank">
+              <i class="fa fa-github right"></i>
+            </a>
+          </div>
+        </div>
+          <h1 class="title mt-3">Slam Fitness</h1>
+          <p class="subtitle mt-3">Slam Fitness is a gym administrative management system that permits administrators and trainers to keep track of clients and even potential clients.</p>
+          <ul>
+            <li>Java</li>
+            <li>JavaFX</li>
+            <li>Swing</li>
+          </ul>
+        </div> 
+
+    </div>
+  </section>
+
+        <!--Contact Section-->
+        <br/><br/><br/><br/><br/>
+        <section id="contact" class="animate__animated animate__fadeInUp ">
+          
+            <h1 class="main-heading">What' next?</h1>
+            <h2 class="contactSubHead">Get in touch</h2>
+            <p class="contact-details">I am currently looking for job opporunities. Kindly reach out to me if there are job opportunities you'd love me to know about. If it is just to say hi, my inbox is always open. Feel free to drop me a message.</p>
+            <button class="hello"><a href="mailto:blrhpm@gmail.com">Say Hello</a</button>
+        </section>
+        <br/><br/><br/><br/><br/>
+
+        <!--Footer Section-->
+        <footer id="footer">
+            <div class="socials">
+            <ul>
+              <li><a href="https://twitter.com/blrhpm"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/hemanth-p-44518075"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/hemanth98"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.instagram.com/hemanth_13/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Inspired by <span><a href="https://brittanychiang.com/">Brittany Chiang</a></span></p>
+            <p>Built by Hemanth P &copy;2020.  All rights reserved</p>
+          </div>
+        </footer>
+    </div>
+
+
+    <!--Bootstrap js-->
+<!-- build:js js/main.js -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
