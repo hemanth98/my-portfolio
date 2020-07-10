@@ -1,7 +1,7 @@
 {
-  "name": "confusion",
+  "name": "Hemanth's Portfolio",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "This is my Portpolio",
   "main": "index.html",
   "scripts": {
     "start": "npm run watch:all",
@@ -27,7 +27,7 @@
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-uglify": "^3.3.0",
