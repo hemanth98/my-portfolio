@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "This is my Portpolio",
+  "description": "This is my Portfolio",
   "main": "index.html",
   "scripts": {
     "start": "npm run watch:all",
